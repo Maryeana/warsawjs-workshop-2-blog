@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node_modules/.bin/simple-mock-http-server -o",
+    "test": "echo \"Errorr: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Maryeana/warsawjs-workshop-2-blog/issues"
   },
-  "homepage": "https://github.com/Maryeana/warsawjs-workshop-2-blog#readme"
+  "homepage": "https://github.com/Maryeana/warsawjs-workshop-2-blog#readme",
+  "dependencies": {
+    "simple-mock-http-server": "^1.0.1"
+  },
+  "devDependencies": {
+    "simple-mock-http-server": "^1.0.1"
+  }
 }
